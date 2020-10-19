@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/fifthturtle/tmux-monitor-logging/issues"
   },
-  "homepage": "https://github.com/fifthturtle/tmux-monitor-logging#readme"
+  "homepage": "https://github.com/fifthturtle/tmux-monitor-logging#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.1.0",
+    "fs-extra": "^9.0.1",
+    "node-ipc": "^9.1.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.1"
+  }
 }

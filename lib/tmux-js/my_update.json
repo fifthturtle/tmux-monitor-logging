@@ -1,0 +1,52 @@
+[
+  {
+    "name": "main-session",
+    "windows": [
+      {
+        "name": "logging-test",
+        "panes": [
+          {
+            "dir": "/home/jdefamio/workspace/tmux/tmux-monitor-server",
+            "command": "npm run start"
+          }
+        ],
+        "id": "@1"
+      },
+      {
+        "name": "my-first-window",
+        "panes": [
+          {
+            "dir": "/home/jdefamio/workspace/tmux/tmux-monitor-logging"
+          }
+        ],
+        "id": "@2"
+      }
+    ],
+    "id": "$1"
+  },
+  {
+    "name": "monitor-usage",
+    "windows": [
+      {
+        "name": "my-second-window",
+        "panes": [
+          {
+            "dir": "/home/jdefamio/workspace/node-scraper",
+            "command": "npm run start"
+          }
+        ],
+        "id": "@3"
+      },
+      {
+        "name": "just-a-test",
+        "panes": [
+          {
+            "dir": "/"
+          }
+        ],
+        "id": "@4"
+      }
+    ],
+    "id": "$2"
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "after-split-window": [
+    {
+      "key": "WINDOW_ID",
+      "value": "window_id"
+    },
+    {
+      "key": "LAYOUT",
+      "value": "window_layout"
+    },
+    {
+      "key": "GET_EXTRAS",
+      "value": 2
+    }
+  ],
+  "pane-exited": [
+    {
+      "key": "WINDOW_ID",
+      "value": "window_id"
+    },
+    {
+      "key": "LAYOUT",
+      "value": "window_layout"
+    },
+    {
+      "key": "GET_EXTRAS",
+      "value": 2
+    }
+  ],
+  "window-layout-changed": [
+    {
+      "key": "WINDOW_ID",
+      "value": "window_id"
+    },
+    {
+      "key": "LAYOUT",
+      "value": "window_layout"
+    },
+    {
+      "key": "GET_EXTRAS",
+      "value": 2
+    }
+  ],
+  "session-closed": [
+    {
+      "key": "GET_EXTRAS",
+      "value": 3
+    }
+  ],
+  "session-created": [
+    {
+      "key": "SESSION_NAME",
+      "value": "hook_session_name"
+    }
+  ],
+  "session-renamed": [
+    {
+      "key": "SESSION_NAME",
+      "value": "hook_session_name"
+    }
+  ],
+  "window-linked": [
+    {
+      "key": "WINDOW_ID",
+      "value": "hook_window"
+    },
+    {
+      "key": "WINDOW_NAME",
+      "value": "hook_window_name"
+    },
+    {
+      "key": "WINDOW_INDEX",
+      "value": "window_index"
+    }
+  ],
+  "window-renamed": [
+    {
+      "key": "WINDOW_ID",
+      "value": "hook_window"
+    },
+    {
+      "key": "WINDOW_NAME",
+      "value": "hook_window_name"
+    }
+  ],
+  "window-unlinked": [
+    {
+      "key": "WINDOW_ID",
+      "value": "hook_window"
+    },
+    {
+      "key": "SESSION_ID",
+      "value": "hook_session_name"
+    }
+  ],
+  "after-select-layout": [
+    {
+      "key": "WINDOW_ID",
+      "value": "window_id"
+    },
+    {
+      "key": "LAYOUT",
+      "value": "window_layout"
+    }
+  ],
+  "after-resize-pane": [
+    {
+      "key": "WINDOW_ID",
+      "value": "window_id"
+    },
+    {
+      "key": "LAYOUT",
+      "value": "window_layout"
+    }
+  ],
+  "alert-activity": [
+    {
+      "key": "WINDOW_ID",
+      "value": "window_id"
+    },
+    {
+      "key": "GET_EXTRAS",
+      "value": "1"
+    }
+  ]
+}
