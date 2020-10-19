@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+"use strict"
+
 const readline = require('readline');
 const shell = require('child_process');
 const tmuxMonitor = require('./lib/tmux-monitor-utilities');

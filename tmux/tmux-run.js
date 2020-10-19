@@ -1,6 +1,8 @@
 // This module creates and manages the Server object, which monitors the changes in TMUX instance and sends to Node Server
 // While this module can technically be run from the command line, user should use the index.js file from parent folder
 
+"use strict"
+
 const process = require('process');
 const ipc = require('node-ipc');
 const path = require('path');
