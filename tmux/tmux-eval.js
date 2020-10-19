@@ -1,3 +1,5 @@
+// test module to run tmux commands from the command line
+
 const tmux = require('../lib/tmux-js/tmux');
 const readline = require('readline');
 

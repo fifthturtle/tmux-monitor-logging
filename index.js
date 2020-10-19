@@ -11,6 +11,11 @@ let config;
 
 const program = require('commander');
 
+// the commander module allows for flags to be added to command line interface. Descriptions of the flags are below, can also be accessed on CL with --help flag
+// On initial run, both the ServerName and TMUXName will have to be inputted, either with flags or manually if no flags are detected. They will be saved to config.json file
+// On subsequent runs, ServerName and TMUXName will be loaded from config.json unless overriden by flags on CL.
+// To save new ServerName or TMUXName use --server-save, --tmux-save  or --save tags
+
 program
     .version('0.0.1')
     .option('-s, --server [Websocket Server URL/IP]', 'URL or IP address of server for websocket connection.')
@@ -30,6 +35,9 @@ const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout
 });
+
+// ServerName is the URL/IP address of the machine running the server.
+// The program will automatically append the port numbder (default: 8061) so no need to enter it.
 
 function getServerName() {
     return new Promise((resolve, reject) => {
@@ -65,6 +73,8 @@ function getServerName() {
         }
     });
 }
+
+// TmuxName is simply the string used to describe the TMUX server. It has no programmatic purpose.
 
 function getTmuxName() {
     return new Promise((resolve, reject) => {
