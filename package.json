@@ -1,0 +1,19 @@
+{
+  "name": "tmux-monitor-logging",
+  "version": "1.0.0",
+  "description": "Logging program installed on TMUX instances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fifthturtle/tmux-monitor-logging.git"
+  },
+  "author": "Josh DeFamio <josh@fifthturtle.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fifthturtle/tmux-monitor-logging/issues"
+  },
+  "homepage": "https://github.com/fifthturtle/tmux-monitor-logging#readme"
+}
